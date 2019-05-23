@@ -1,4 +1,4 @@
-# Sidekick Confer - A Base Docker Image for building dynamic Sidekick Config Containers
+# Sidekick Confer - Base Image for Dynamic Sidekick Config Containers
 
 ## Usage example:
 
