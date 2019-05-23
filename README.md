@@ -1,4 +1,6 @@
-# Sidekick Confer - Base Image for Dynamic Sidekick Config Containers
+[![Docker Pulls](https://img.shields.io/docker/pulls/cha87de/sidekick-confer.svg)](https://hub.docker.com/r/cha87de/sidekick-confer/)
+
+# Base Image for Dynamic Sidekick Config Containers
 
 ## Usage example:
 
