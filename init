@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+files=$(find / -name *.tmpl)
+for file in $files; do
+    echo -ne "substitute file ${file} ..."
+    fileDst=$(echo $file | sed 's/.tmpl//g')
+    cat $file \
+    | envsubst "$(env | sed -e 's/=.*//' -e 's/^/\$/g')" > $fileDst
+    echo -ne "done.\n"
+done
+
+exit 0
